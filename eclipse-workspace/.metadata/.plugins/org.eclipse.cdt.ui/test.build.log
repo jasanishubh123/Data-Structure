@@ -1,0 +1,23 @@
+17:16:21 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../src/test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.o" -o "src/test.o" "../src/test.c"
+../src/test.c: In function ‘main’:
+../src/test.c:24:4: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+    printf("Sum=%d\n",c);
+    ^
+../src/test.c:24:4: warning: incompatible implicit declaration of built-in function ‘printf’ [enabled by default]
+../src/test.c:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/test.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./src/test.o   
+Finished building target: test
+ 
+
+17:16:22 Build Finished. 0 errors, 3 warnings. (took 650ms)
+

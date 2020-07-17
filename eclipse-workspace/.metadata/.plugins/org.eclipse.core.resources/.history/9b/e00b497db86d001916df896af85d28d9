@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : project1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	printf("Integer Values\n");
+	printf("%d %d %d" ,32767,32767+1,32767+10);
+	printf("\n");
+	printf("Long Integer Values\n");
+	printf("%d %d %d" ,32767,32767+1,32767+10);
+	return EXIT_SUCCESS;
+}

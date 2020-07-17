@@ -1,0 +1,35 @@
+/*
+ ============================================================================
+ Name        : test.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+
+
+void foo(int n, int sum)
+{
+  int k = 0, j = 0;
+  if (n == 0) return;
+  //printf("k=%d", n % 10);
+    k = n % 10;
+  j = n / 10;
+  //printf("j=%d", n / 10);
+  sum = sum + k;
+  printf("k=%d",k);
+  printf("sum=%d",sum);
+  //foo (j, sum);
+  printf ("%d,", k);
+}
+
+int main ()
+{
+  int a = 2048, sum = 0;
+  foo (a, sum);
+  //printf ("%dn", sum);
+
+  getchar();
+}

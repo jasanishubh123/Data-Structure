@@ -1,0 +1,22 @@
+/*
+ ============================================================================
+ Name        : test.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+main( )
+{
+float x = 1.1 ;
+while ( x == 1.1 )
+{
+printf ( "\n%f", x ) ;
+x = x – 0.1;
+}
+}

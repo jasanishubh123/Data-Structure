@@ -1,0 +1,23 @@
+/*
+ ============================================================================
+ Name        : test.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+main( )
+{
+int i;
+	while( i<=10 )
+	{
+		printf("\n%d",i);
+		i=i+1;
+	}
+
+}

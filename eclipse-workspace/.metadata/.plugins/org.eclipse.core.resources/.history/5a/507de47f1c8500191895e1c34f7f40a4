@@ -1,0 +1,30 @@
+/*
+ ============================================================================
+ Name        : test.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+
+
+        #include <stdio.h>
+
+        main()
+
+        {
+
+            int n = 0, m = 0;
+
+            if (n > 0)
+                if (m > 0)
+
+                    printf("True");
+
+            else
+
+                printf("False");
+
+        }

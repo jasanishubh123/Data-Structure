@@ -1,0 +1,22 @@
+/*
+ ============================================================================
+ Name        : project1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int i, num[3]={10,20};
+	for(i=0;i<3;i++)
+	{
+		printf("%d\t",num[i]);
+	}
+
+	return EXIT_SUCCESS;
+}

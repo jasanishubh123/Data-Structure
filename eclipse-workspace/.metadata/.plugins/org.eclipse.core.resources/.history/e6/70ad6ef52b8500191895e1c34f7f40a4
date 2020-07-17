@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : test.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+
+
+int sum (int a, int b)
+{
+	int sum=0;
+	sum=a+b;
+	return sum;
+}
+
+int main ()
+{
+  int a =10, b = 20,c;
+   c=sum(a, b);
+   printf("Sum=%d\n",c);
+
+  //printf ("%dn", sum);
+
+ // getchar();
+}

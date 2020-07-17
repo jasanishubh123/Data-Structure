@@ -1,0 +1,54 @@
+20:52:17 **** Incremental Build of configuration Debug for project Ass7 ****
+make all 
+Building file: ../src/Ass7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ass7.d" -MT"src/Ass7.o" -o "src/Ass7.o" "../src/Ass7.c"
+../src/Ass7.c: In function ‘display’:
+../src/Ass7.c:59:8: warning: unused variable ‘j’ [-Wunused-variable]
+  int i,j,ch;
+        ^
+../src/Ass7.c: At top level:
+../src/Ass7.c:86:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main()
+      ^
+../src/Ass7.c: In function ‘main’:
+../src/Ass7.c:102:8: warning: ‘data’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    push(data);
+        ^
+Finished building: ../src/Ass7.c
+ 
+Building target: Ass7
+Invoking: GCC C Linker
+gcc  -o "Ass7"  ./src/Ass7.o   
+Finished building target: Ass7
+ 
+20:52:20 **** Incremental Build of configuration Debug for project Ass7 ****
+make all 
+make: Nothing to be done for `all'.
+21:00:28 **** Incremental Build of configuration Debug for project Ass7 ****
+make all 
+Building file: ../src/Ass7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ass7.d" -MT"src/Ass7.o" -o "src/Ass7.o" "../src/Ass7.c"
+../src/Ass7.c: In function ‘display’:
+../src/Ass7.c:59:8: warning: unused variable ‘j’ [-Wunused-variable]
+  int i,j,ch;
+        ^
+../src/Ass7.c: At top level:
+../src/Ass7.c:86:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main()
+      ^
+../src/Ass7.c: In function ‘main’:
+../src/Ass7.c:102:8: warning: ‘data’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    push(data);
+        ^
+Finished building: ../src/Ass7.c
+ 
+Building target: Ass7
+Invoking: GCC C Linker
+gcc  -o "Ass7"  ./src/Ass7.o   
+Finished building target: Ass7
+ 
+07:39:51 **** Incremental Build of configuration Debug for project Ass7 ****
+make all 
+make: Nothing to be done for `all'.

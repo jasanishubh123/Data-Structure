@@ -1,0 +1,22 @@
+/*
+ ============================================================================
+ Name        : test.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+main( )
+{
+int i = -3, j = 3 ;
+printf("%d\n",!i + !j);
+if ( !i + !j * 1 )
+printf ( "\nMassaro" ) ;
+else
+printf ( "\nBennarivo" ) ;
+}

@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : test.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+main( )
+{
+char x ;
+
+
+while ( x = 0 ; x <= 255 ; x++ )
+printf ( "\nAscii value %d Character %c", x, x ) ;
+}

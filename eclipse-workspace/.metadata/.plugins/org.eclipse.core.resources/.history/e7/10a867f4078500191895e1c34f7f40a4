@@ -1,0 +1,19 @@
+/*
+ ============================================================================
+ Name        : test.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+main( )
+{
+int j = 4, k ;
+k = !5 && j ;
+printf ( "\nk = %d", k ) ;
+}

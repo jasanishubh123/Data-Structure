@@ -1,0 +1,19 @@
+/*
+ ============================================================================
+ Name        : test.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+main( )
+{
+char spy = 'a', password = 'z' ;
+if ( spy == 'a' or password == 'z' )
+printf ( "\nAll the birds are safe in the nest" ) ;
+}

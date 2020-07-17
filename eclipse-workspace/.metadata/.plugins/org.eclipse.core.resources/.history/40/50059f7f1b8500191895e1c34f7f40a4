@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : test.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+
+        #include <stdio.h>
+
+        main()
+
+        {
+
+            char *p,p;
+
+            p = 'a';
+
+            printf("value in pointer p is %c\n", *p);
+
+        }

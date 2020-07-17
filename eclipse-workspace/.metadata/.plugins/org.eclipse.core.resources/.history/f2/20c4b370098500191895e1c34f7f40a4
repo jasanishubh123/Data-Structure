@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : test.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+main( )
+{
+int tag = 0, code = 1 ;
+if ( tag == 0 )
+( code > 1 ? printf ( "\nHello" ) ? printf ( "\nHi" ) ) ;
+else
+printf ( "\nHello Hi !!" ) ;
+}

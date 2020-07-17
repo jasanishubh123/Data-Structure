@@ -1,0 +1,15 @@
+12:22:18 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../src/project1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/project1.d" -MT"src/project1.o" -o "src/project1.o" "../src/project1.c"
+Finished building: ../src/project1.c
+ 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./src/project1.o   
+Finished building target: project1
+ 
+
+12:22:18 Build Finished. 0 errors, 0 warnings. (took 169ms)
+

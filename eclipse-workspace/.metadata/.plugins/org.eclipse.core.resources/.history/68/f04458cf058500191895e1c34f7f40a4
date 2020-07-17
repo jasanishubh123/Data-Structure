@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : test.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+main( )
+{
+int i = 4, z = 12 ;
+if ( i = 5 && z > 5 )
+printf ( "\nLet us C" ) ;
+else
+printf ( "\nWish C was free !" ) ;
+}

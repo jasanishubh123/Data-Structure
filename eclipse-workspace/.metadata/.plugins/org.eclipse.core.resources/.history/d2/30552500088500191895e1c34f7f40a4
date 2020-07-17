@@ -1,0 +1,19 @@
+/*
+ ============================================================================
+ Name        : test.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+main( )
+{
+int i = 2, j = 5 ;
+if ( i == 2 && j == 5 )
+printf ( "\nSatisfied at last" ) ;
+}
